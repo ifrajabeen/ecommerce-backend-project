@@ -42,10 +42,11 @@
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
-                                <th>Email</th>
                                 <th>Phone</th>
                                 <th>Comment</th>
                                 <th>Date</th>
+                                <th>Email</th>
+
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -54,10 +55,11 @@
                             <tr>
                                 <td>{{$contact->id}}</td>
                                 <td>{{$contact->name}}</td>
-                                <td>{{$contact->email}}</td>
-                                <td>{{$contact->phone}}</td>
+                                <td>{{$contact->Phone}}</td>
                                 <td>{{$contact->comment}}</td>
                                 <td>{{$contact->created_at}}</td>
+                                <td>{{$contact->email}}</td>
+
                                 
                                 <td>
                                     <div class="list-icon-function">

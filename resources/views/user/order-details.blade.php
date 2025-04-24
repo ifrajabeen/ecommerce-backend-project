@@ -191,7 +191,7 @@
                     </table>
                     </div>
                 </div>  
-                @if($transaction->order->status =='ordered'){
+                @if($transaction->order->status =='ordered')
                 <div class="wg-box mt-5 text-right">
                 <form action="{{route('user.account_cancel_order')}}" method="Post">
                     @csrf
